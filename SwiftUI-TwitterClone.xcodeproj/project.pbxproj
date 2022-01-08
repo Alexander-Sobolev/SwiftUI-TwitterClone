@@ -11,6 +11,8 @@
 		B4B0421F27884F3800E3FA94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B0421E27884F3800E3FA94 /* ContentView.swift */; };
 		B4B0422127884F3800E3FA94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4B0422027884F3800E3FA94 /* Assets.xcassets */; };
 		B4B0422427884F3800E3FA94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4B0422327884F3800E3FA94 /* Preview Assets.xcassets */; };
+		B4B725F42789AB440059E087 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B725F32789AB440059E087 /* FeedView.swift */; };
+		B4B725F62789B17F0059E087 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B725F52789B17F0059E087 /* TweetCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		B4B0422027884F3800E3FA94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4B0422327884F3800E3FA94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B4B0422527884F3800E3FA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4B725F32789AB440059E087 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		B4B725F52789B17F0059E087 /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				B4B0421C27884F3800E3FA94 /* SwiftUI_TwitterCloneApp.swift */,
 				B4B0421E27884F3800E3FA94 /* ContentView.swift */,
+				B4B725F32789AB440059E087 /* FeedView.swift */,
+				B4B725F52789B17F0059E087 /* TweetCell.swift */,
 				B4B0422027884F3800E3FA94 /* Assets.xcassets */,
 				B4B0422527884F3800E3FA94 /* Info.plist */,
 				B4B0422227884F3800E3FA94 /* Preview Content */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4B0421F27884F3800E3FA94 /* ContentView.swift in Sources */,
+				B4B725F42789AB440059E087 /* FeedView.swift in Sources */,
 				B4B0421D27884F3800E3FA94 /* SwiftUI_TwitterCloneApp.swift in Sources */,
+				B4B725F62789B17F0059E087 /* TweetCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
